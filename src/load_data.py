@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 class DataLoader:
-    def _init_(self, file_path):
+    def __init__(self, file_path):
         self.file_path = file_path
     
     def load_data(self):
