@@ -2,7 +2,7 @@ from sklearn.ensemble import RandomForestRegressor
 import joblib
 
 class ModelTrainer:
-    def _init_(self):
+    def __init__(self):
         self.model = RandomForestRegressor()
 
     def train_model(self, X_train, y_train):

@@ -1,7 +1,7 @@
 from sklearn.metrics import mean_squared_error
 
 class ModelEvaluator:
-    def _init_(self, model):
+    def __init__(self, model):
         self.model = model
 
     def evaluate(self, X_test, y_test):
