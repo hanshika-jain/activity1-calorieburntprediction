@@ -4,7 +4,7 @@ from sklearn.compose import ColumnTransformer
 import pandas as pd
 
 class Preprocessor:
-    def _init_(self, numerical_features, categorical_features):
+    def __init__(self, numerical_features, categorical_features):
         self.numerical_features = numerical_features
         self.categorical_features = categorical_features
         self.pipeline = ColumnTransformer(
