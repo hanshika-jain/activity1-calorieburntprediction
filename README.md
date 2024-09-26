@@ -30,7 +30,10 @@ calorie_burnt_prediction/
 
 │   ├── main.py              # Main script to run the project  
 
-│  
+├── tests/                   # Contains test file  
+
+│   ├── test_integration.py  # Script testing for Training, saving and evaluating model.
+  
 
 ├── README.md                # Project documentation  
 
