@@ -30,7 +30,10 @@ calorie_burnt_prediction/
 
 │   ├── main.py              # Main script to run the project  
 
-│  
+├── tests/                   # Contains test file  
+
+│   ├── test_integration.py  # Script testing for Training, saving and evaluating model.
+  
 
 ├── README.md                # Project documentation  
 
@@ -55,4 +58,4 @@ etc.
 
 -**Member 2 (Shravani Avalkar):** Manages model training and evaluation. Implements the algorithms and evaluates the model's performance.  
 
--**Member 3 (Hanshika Jain)**: Oversees the main execution of the code. Manages the `main.py` file that integrates all components and handles predictions. Also responsible for updating the README and maintaining requirements.  
+-**Member 3 (Hanshika Jain)**: Oversees the main execution of the code. Manages the main.py file that integrates all components and handles predictions. Also responsible for updating the README, maintaining requirements, and managing the test_integration.py file to ensure end-to-end functionality and validate the entire workflow.
